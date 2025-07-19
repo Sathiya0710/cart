@@ -10,3 +10,5 @@ cd cart
 docker buildx build -t dockerhub-id/cart:v1
 docker run -itd --name c1 -p 80:5000 dockerhub-id/cart:v1 /bin/bash
 
+# No Activity
+
